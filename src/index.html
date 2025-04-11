@@ -22,8 +22,12 @@
     <% } %>
     
       <!-- content goes below here -->
-      Hello World
+      <%= t.include("partials/_nav.html") %>
+
+      <%= t.include("partials/_scrolly-graphic-copy.html") %>
+      <%= t.include("partials/_new-graphic.html") %>
       
+      <%= t.include("partials/_navBottom.html") %>
       <!-- content goes above here -->
       
     <script src="app.js" async></script>
